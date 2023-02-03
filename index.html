@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadoo</title>
+    <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Swiper slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <section class="banner">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <div class="logo-wrapper">
+                        <a href="#">
+                            <img class="logo" src="./assets/images/Logo.svg" alt="Jadoo" />
+                        </a>
+                    </div>
+                    <button class="navbar-toggler p-0 border-0 white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">Desitnations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Hotels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Flights</a>
+                            </li>
+                            <li class="nav-item menu-last">
+                                <a href="#" class="nav-link">Bookings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link fw-500">Login</a>
+                            </li>
+                            <li class="nav-item last">
+                                <button class="btn btn-signup fw-500">
+                                    Sign up
+                                </button>
+                            </li>
+                            <li class="nav-item d-none d-lg-flex d-lg-block">
+                                <select class="form-select form-select-sm select-custom fw-500">
+                                    <option value="1">EN</option>
+                                    <option value="2">AR</option>
+                                    <option value="3">ES</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container banner-container">
+            <div class="row">
+                <div class="col-md-6 order-2 order-md-1">
+                    <div class="banner-left">
+                        <span class="section-label banner-label">Best Destinations around the world</span>
+                        <h1 class="banner-head">
+                            Travel, enjoy and live a new and full life
+                        </h1>
+                        <p class="text-description banner-text">
+                            Built Wicket longer admire do barton vanity
+                            itself do in it. Preferred to sportsmen it
+                            engrossed listening. Park gate sell they west
+                            hard for the.
+                        </p>
+
+                        <div class="d-flex">
+                            <button class="btn btn-banner fw-500">
+                                Find out more
+                            </button>
+
+                            <button class="btn play-demo">
+                                <span class="btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13"
+                                        fill="none">
+                                        <path d="M12 6.5L0.749999 12.9952L0.75 0.00480889L12 6.5Z" fill="white" />
+                                    </svg>
+                                </span>
+                                <label>Play Demo</label>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 order-1 order-md-1">
+                    <div class="banner-right">
+                        <img class="plane_1" src="./assets/images/plane.png" alt="palne" />
+                        <img class="plane_2" src="./assets/images/plane.png" alt="palne" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="service pt-3 pb-5">
+        <!-- <img class="service__anim" src="./assets/icons/service_bg.svg" alt="service"> -->
+        <svg class="service__anim" xmlns="http://www.w3.org/2000/svg" width="153" height="166" viewBox="0 0 153 166"
+            fill="none">
+            <path id="red_star"
+                d="M11.5586 12.6104V14.4795H0.837891V12.6104H11.5586ZM7.19727 8.04492V19.4316H5.20996V8.04492H7.19727Z"
+                fill="#FF7152" />
+            <path
+                d="M11.5586 47.6104V49.4795H0.837891V47.6104H11.5586ZM7.19727 43.0449V54.4316H5.20996V43.0449H7.19727Z"
+                fill="#E5E5E5" />
+            <path
+                d="M11.5586 82.6104V84.4795H0.837891V82.6104H11.5586ZM7.19727 78.0449V89.4316H5.20996V78.0449H7.19727Z"
+                fill="#E5E5E5" />
+            <path d="M46.5586 12.6104V14.4795H35.8379V12.6104H46.5586ZM42.1973 8.04492V19.4316H40.21V8.04492H42.1973Z"
+                fill="#E5E5E5" />
+            <path d="M46.5586 47.6104V49.4795H35.8379V47.6104H46.5586ZM42.1973 43.0449V54.4316H40.21V43.0449H42.1973Z"
+                fill="#E5E5E5" />
+            <path d="M46.5586 82.6104V84.4795H35.8379V82.6104H46.5586ZM42.1973 78.0449V89.4316H40.21V78.0449H42.1973Z"
+                fill="#E5E5E5" />
+            <path d="M46.5586 117.61V119.479H35.8379V117.61H46.5586ZM42.1973 113.045V124.432H40.21V113.045H42.1973Z"
+                fill="#E5E5E5" />
+            <path d="M81.5586 12.6104V14.4795H70.8379V12.6104H81.5586ZM77.1973 8.04492V19.4316H75.21V8.04492H77.1973Z"
+                fill="#E5E5E5" />
+            <path d="M81.5586 47.6104V49.4795H70.8379V47.6104H81.5586ZM77.1973 43.0449V54.4316H75.21V43.0449H77.1973Z"
+                fill="#E5E5E5" />
+            <path id="blue_star"
+                d="M81.5586 82.6104V84.4795H70.8379V82.6104H81.5586ZM77.1973 78.0449V89.4316H75.21V78.0449H77.1973Z"
+                fill="#6246E5" />
+            <path d="M81.5586 117.61V119.479H70.8379V117.61H81.5586ZM77.1973 113.045V124.432H75.21V113.045H77.1973Z"
+                fill="#E5E5E5" />
+            <path d="M81.5586 152.61V154.479H70.8379V152.61H81.5586ZM77.1973 148.045V159.432H75.21V148.045H77.1973Z"
+                fill="#E5E5E5" />
+            <path d="M116.559 12.6104V14.4795H105.838V12.6104H116.559ZM112.197 8.04492V19.4316H110.21V8.04492H112.197Z"
+                fill="#E5E5E5" />
+            <path d="M116.559 47.6104V49.4795H105.838V47.6104H116.559ZM112.197 43.0449V54.4316H110.21V43.0449H112.197Z"
+                fill="#E5E5E5" />
+            <path d="M116.559 82.6104V84.4795H105.838V82.6104H116.559ZM112.197 78.0449V89.4316H110.21V78.0449H112.197Z"
+                fill="#E5E5E5" />
+            <path d="M116.559 117.61V119.479H105.838V117.61H116.559ZM112.197 113.045V124.432H110.21V113.045H112.197Z"
+                fill="#E5E5E5" />
+            <path d="M116.559 152.61V154.479H105.838V152.61H116.559ZM112.197 148.045V159.432H110.21V148.045H112.197Z"
+                fill="#E5E5E5" />
+            <path d="M151.559 12.6104V14.4795H140.838V12.6104H151.559ZM147.197 8.04492V19.4316H145.21V8.04492H147.197Z"
+                fill="#E5E5E5" />
+            <path d="M151.559 47.6104V49.4795H140.838V47.6104H151.559ZM147.197 43.0449V54.4316H145.21V43.0449H147.197Z"
+                fill="#E5E5E5" />
+            <path d="M151.559 82.6104V84.4795H140.838V82.6104H151.559ZM147.197 78.0449V89.4316H145.21V78.0449H147.197Z"
+                fill="#E5E5E5" />
+            <path d="M151.559 117.61V119.479H140.838V117.61H151.559ZM147.197 113.045V124.432H145.21V113.045H147.197Z"
+                fill="#E5E5E5" />
+            <path d="M151.559 152.61V154.479H140.838V152.61H151.559ZM147.197 148.045V159.432H145.21V148.045H147.197Z"
+                fill="#E5E5E5" />
+        </svg>
+
+
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label fw-600">CATEGORY</span>
+                <h2>We Offer Best Services</h2>
+            </div>
+            <div class="row service-row">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card service__card text-center">
+                        <figure class="figure-wrap">
+                            <img src="./assets/icons/service1.svg" alt="weather">
+                        </figure>
+                        <div class="service-text text-center">
+                            <h4 class="title">Calculated Weather </h4>
+                            <p class="text-description">Built Wicket longer admire do barton vanity itself do in it.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 mt-5 mt-md-0">
+                    <div class="card service__card text-center">
+                        <figure class="figure-wrap">
+                            <img src="./assets/icons/service2.png" alt="weather">
+                        </figure>
+                        <div class="service-text text-center">
+                            <h4 class="title">Best Flights</h4>
+                            <p class="text-description">Engrossed listening. Park gate sell they west hard for the.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 mt-5 mt-lg-0 ">
+                    <div class="card service__card text-center">
+                        <figure class="figure-wrap">
+                            <img src="./assets/icons/service3.svg" alt="weather">
+                        </figure>
+                        <div class="service-text text-center">
+                            <h4 class="title">Local Events </h4>
+                            <p class="text-description">Barton vanity itself do in it. Preferd to men it engrossed
+                                listening. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 mt-5 mt-xl-0">
+                    <div class="card service__card text-center">
+                        <figure class="figure-wrap">
+                            <img src="./assets/icons/service4.svg" alt="weather">
+                        </figure>
+                        <div class="service-text text-center">
+                            <h4 class="title">Customization </h4>
+                            <p class="text-description">We deliver outsourced
+                                aviation services for
+                                military customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="destination">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label fw-600">Top Selling</span>
+                <h2>Top Destinations</h2>
+            </div>
+
+            <div class="row destination-row">
+                <!-- <img class="anim-ring" src="./assets/images/destin-ring.png" alt="ring"> -->
+                <svg class="anim-ring" xmlns="http://www.w3.org/2000/svg" width="98" height="254" viewBox="0 0 98 254"
+                    fill="none">
+                    <path
+                        d="M8.95816 14.2344C15.985 5.71795 33.7527 -7.37604 48.6094 8.37933C63.4661 24.1347 43.423 53.6228 31.5443 66.3974C25.6886 69.9459 13.4754 75.9784 11.4677 71.7202C8.95816 66.3974 7.45241 55.2196 28.0309 45.6387C41.248 39.961 69.7902 33.9286 78.2224 55.2196C82.0704 64.4457 82.7396 85.8787 54.6324 97.8017L19.4984 113.238M19.4984 113.238C6.11398 113.774 -13.1261 107.392 16.9888 77.5752C26.5252 72.9621 49.6133 63.6296 65.6746 63.2038C74.8763 65.1554 92.5772 74.8074 89.7665 97.8017C90.1011 102.415 83.8439 113.876 56.1382 122.819C49.7806 124.238 35.5597 127.183 29.5367 127.609L7.95439 130.803L19.4984 113.238ZM19.4984 113.238C28.2808 110.754 49.0085 106.531 61.6592 109.512C77.4727 113.238 83.7435 110.044 96.2913 130.803C98.4663 141.448 96.8936 163.272 73.2033 165.401C49.5129 167.53 34.2212 163.449 29.5367 161.143V141.448M29.5367 141.448C46.7691 143.045 83.7435 141.874 93.7818 124.415C98.6336 111.996 99.0017 86.6239 61.6592 84.4948C52.6248 84.8496 33.3513 85.9852 28.5329 87.6884L29.5367 125.48C47.1037 127.077 84.0446 134.635 91.2722 152.094C95.1202 162.207 96.3917 183.498 70.6937 187.756C61.1573 188.111 39.575 186.798 29.5367 178.708M29.5367 141.448V178.708M29.5367 141.448C40.4115 144.11 64.3696 151.455 73.2033 159.546C83.9108 168.417 99.604 190.418 76.7167 207.45C69.5225 210.112 50.4163 212.241 31.5443 199.466M29.5367 178.708L31.5443 199.466M29.5367 178.708C41.5827 187.224 66.1765 207.876 68.1841 222.354C69.0207 231.225 66.7788 249.713 51.119 252.694C47.1037 253.404 37.1658 253.333 29.5367 247.371L31.5443 199.466"
+                        stroke="#84829A" />
+                </svg>
+                <div class="col-md-4">
+                    <div class="card destination__card">
+                        <figure class="figure-wrap">
+                            <img src="./assets/images/destin1.png" alt="rome">
+                        </figure>
+                        <div class="destination-text">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="text-description">Rome, Italty</h4>
+                                    <p class="text-description fw-500">$5,42k</p>
+                            </div>
+                            <a href="#" class="destination__link"><img src="./assets/icons/telegram.svg" alt="telegram">
+                                <span class="text-description">10 Days Trip</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card destination__card">
+                        <figure class="figure-wrap">
+                            <img src="./assets/images/destin2.png" alt="rome">
+                        </figure>
+                        <div class="destination-text">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="text-description">London, UK</h4>
+                                    <p class="text-description fw-500">$4.2k</p>
+                            </div>
+                            <a href="#" class="destination__link"><img src="./assets/icons/telegram.svg" alt="telegram">
+                                <span class="text-description">12 Days Trip</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card destination__card">
+                        <figure class="figure-wrap">
+                            <img src="./assets/images/destin3.png" alt="rome">
+                        </figure>
+                        <div class="destination-text">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="text-description">Full Europe</h4>
+                                    <p class="text-description fw-500">$15k</p>
+                            </div>
+                            <a href="#" class="destination__link"><img src="./assets/icons/telegram.svg" alt="telegram">
+                                <span class="text-description">28 Days Trip</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="booking ">
+        <div class="container">
+            <div class="row booking-row">
+                <div class="col-md-6">
+                    <div class="section-header">
+                        <span class="section-label fw-600">Easy and Fast</span>
+                        <h2>Book your next trip in 3 easy steps</h2>
+                    </div>
+                    <div class="booking-list-wrap">
+                        <ul class="booking-lists">
+                            <li>
+                                <figure>
+                                    <img src="./assets/icons/choose-destin.svg" alt="destination">
+                                </figure>
+                                <div class="booking-text">
+                                    <h5 class="fw-700">Choose Destination</h5>
+                                    <p class="text-description">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Urna, tortor tempus. </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <figure>
+                                    <img src="./assets/icons/payment.svg" alt="payment">
+                                </figure>
+                                <div class="booking-text">
+                                    <h5 class="fw-700">Make Payment</h5>
+                                    <p class="text-description">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Urna, tortor tempus. </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <figure>
+                                    <img src="./assets/icons/airport.svg" alt="airport">
+                                </figure>
+                                <div class="booking-text">
+                                    <h5 class="fw-700">Reach Airport on Selected Date</h5>
+                                    <p class="text-description">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Urna, tortor tempus. </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="booking-card-wrap d-md-flex align-items-end ">
+                        <div class="card booking-card">
+                            <figure>
+                                <img src="./assets/images/booking-img.png" alt="trip">
+                            </figure>
+
+                            <div class="booking-card-text">
+                                <h5 class="fw-500">Trip To Greece</h5>
+                                <div class="booking-date text-description"><span>14-29 June |</span> <span>by Robbin
+                                        joseph</span></div>
+
+                                <div class="booking-links">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                                    viewBox="0 0 36 36" fill="none" id="leaf">
+                                                    <circle cx="18" cy="18" r="18" fill="#F5F5F5" />
+                                                    <g clip-path="url(#clip0_202_1580)">
+                                                        <path
+                                                            d="M24.6545 12.1508C24.2856 12.0429 15.2626 11.1445 12.0937 15.4257C10.6903 17.3222 10.6692 19.9221 12.0234 23.1525C11.6799 23.8655 11.3792 24.6166 11.1341 25.4091C11.0596 25.6499 11.1943 25.9052 11.4349 25.9795C11.4797 25.9934 11.5251 26 11.57 26C11.7645 26 11.945 25.8744 12.0053 25.6787C14.4205 17.8703 22.2694 14.0927 24.6763 13.1383C24.9106 13.0454 25.2236 12.3174 24.6545 12.1508Z"
+                                                            fill="#84829A" />
+                                                        <path
+                                                            d="M13.4719 24.1297C14.7783 24.6777 16.0845 24.9586 17.2992 24.9586C18.391 24.9586 19.4092 24.7341 20.2866 24.2789C22.0525 23.3629 23.1315 21.6107 23.4071 19.2112C23.6878 16.7658 24.0373 15.2341 24.3289 14.297C21.7336 15.4942 16.1688 18.5973 13.4719 24.1297Z"
+                                                            fill="#84829A" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_202_1580">
+                                                            <rect width="14" height="14" fill="white"
+                                                                transform="translate(11 12)" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                                    viewBox="0 0 36 36" fill="none" id="map">
+                                                    <circle cx="18" cy="18" r="18" fill="#F5F5F5" />
+                                                    <g clip-path="url(#clip0_202_1594)">
+                                                        <path
+                                                            d="M23.5008 11C23.4231 11 23.3465 11.018 23.277 11.0527L19.4881 12.9477L15.2037 11.0432C15.1967 11.0403 15.1887 11.0397 15.1812 11.0367C15.1619 11.0295 15.1422 11.0235 15.1222 11.0187C15.1023 11.0134 15.0821 11.0092 15.0617 11.0062C15.0211 11.0029 14.9802 11.0029 14.9397 11.0062C14.9193 11.0092 14.8991 11.0134 14.8792 11.0187C14.8592 11.0235 14.8394 11.0295 14.8202 11.0367C14.8127 11.0397 14.8047 11.0402 14.7977 11.0432L10.2977 13.0432C10.1171 13.1234 10.0007 13.3026 10.0007 13.5002V24.5C10.0008 24.6692 10.0864 24.8268 10.2282 24.919C10.3701 25.0114 10.549 25.0257 10.7037 24.957L15.0006 23.047L19.2976 24.957C19.3051 24.96 19.3131 24.957 19.3206 24.9615C19.4416 25.0157 19.5806 25.0126 19.6991 24.953C19.707 24.9496 19.716 24.953 19.724 24.9475L23.724 22.9476C23.8935 22.8629 24.0006 22.6896 24.0005 22.5V11.5002C24.0006 11.2241 23.7769 11.0001 23.5008 11ZM14.5007 22.1751L11.0007 23.7305V13.8252L14.5007 12.2697V22.1751ZM19.0006 23.7305L15.5006 22.1751V12.2697L19.0006 13.8252V23.7305ZM23.0005 22.1911L20.0006 23.691V13.8092L23.0005 12.3092V22.1911Z"
+                                                            fill="#84829A" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_202_1594">
+                                                            <rect width="14" height="14" fill="white"
+                                                                transform="translate(10 11)" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                                    viewBox="0 0 36 36" fill="none" id="send">
+                                                    <circle cx="18" cy="18" r="18" fill="#F5F5F5" />
+                                                    <path
+                                                        d="M23.3434 13.2425L17.0259 19.5833C16.9535 19.5414 16.8773 19.5062 16.7984 19.4783L12.6276 18.0667C12.5014 18.0351 12.3895 17.9622 12.3095 17.8597C12.2295 17.7572 12.186 17.6309 12.186 17.5008C12.186 17.3708 12.2295 17.2445 12.3095 17.142C12.3895 17.0395 12.5014 16.9666 12.6276 16.935L22.9759 13.2542C23.0435 13.2312 23.1145 13.2194 23.1859 13.2192C23.2393 13.2183 23.2925 13.2262 23.3434 13.2425Z"
+                                                        fill="#84829A" />
+                                                    <path
+                                                        d="M23.7459 14.0242L20.065 24.3842C20.0244 24.5049 19.9455 24.6091 19.8401 24.6807C19.7348 24.7523 19.6089 24.7875 19.4817 24.7808C19.353 24.7867 19.226 24.7499 19.1205 24.676C19.015 24.6021 18.9369 24.4954 18.8984 24.3725L17.51 20.2017C17.4821 20.1228 17.447 20.0466 17.405 19.9742L23.7575 13.6567C23.7934 13.7772 23.7893 13.9061 23.7459 14.0242Z"
+                                                        fill="#84829A" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="booking-footer d-flex justify-content-between align-items-center">
+                                    <div><img src="./assets/icons/building.svg" alt="building"><a href="#"
+                                            class="link-description fw-500">24 people going</a></div>
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 20 20" fill="none">
+                                            <path
+                                                d="M18.3644 2.45457C17.33 1.34265 15.8804 0.709981 14.3617 0.707636C12.8417 0.709395 11.3906 1.34173 10.3546 2.45386L10.0015 2.82698L9.64836 2.45386C7.59251 0.241198 4.13215 0.114128 1.91953 2.16998C1.82148 2.26112 1.72679 2.35577 1.63565 2.45386C-0.545218 4.80619 -0.545218 8.44162 1.63565 10.794L9.48255 19.069C9.75403 19.3556 10.2064 19.3679 10.493 19.0964C10.5024 19.0875 10.5115 19.0784 10.5204 19.069L18.3645 10.794C20.5452 8.44187 20.5452 4.80665 18.3644 2.45457ZM17.3302 9.80969H17.3294L10.0015 17.5386L2.67282 9.80969C1.00676 8.01229 1.00676 5.23481 2.67282 3.43741C4.1858 1.79757 6.74172 1.69475 8.38156 3.20773C8.46118 3.28119 8.53778 3.35779 8.61124 3.43741L9.48255 4.35663C9.76969 4.64193 10.2333 4.64193 10.5204 4.35663L11.3917 3.43812C12.9047 1.79828 15.4606 1.69546 17.1005 3.20844C17.1801 3.2819 17.2567 3.35851 17.3302 3.43812C19.0107 5.23837 19.023 8.02092 17.3302 9.80969Z"
+                                                fill="#4152CA" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <div class="card booking-details-card">
+                                <div class="d-flex align-items-start">
+                                    <div class="img_wraper">
+                                        <a href="#"><img src="./assets/images/profile.png" alt="profile"></a>
+                                    </div>
+                                    <div class="details-card-text">
+                                        <span class="status fw-500">Ongoing</span>
+                                        <h5 class="fw-500">Trip to rome</h5>
+                                        <div class="progress__group">
+                                            <label class="progress__label fw-500"><span>40%</span> completed</label>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 45%"
+                                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-5">
+                    <div class="section-header mt-lg-5">
+                        <span class="section-label fw-600">Testimonials</span>
+                        <h2>What people say
+                            about Us.</h2>
+                    </div>
+                    <div class="swiper-pagination-box position-relative">
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-7">
+                    <div class="slider-container">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide d-flex">
+                                    <div class="card slider-card">
+                                        <figure class="slider__pic">
+                                            <img src="./assets/images/slider-dp.svg" alt="prfile_dp">
+                                        </figure>
+                                        <p class="text-description">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                                        <h5 class="fw-600">Mike taylor</h5>
+                                        <div class="profile_place">Lahore, Pakistan</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide d-flex">
+                                    <div class="card slider-card">
+                                        <figure class="slider__pic">
+                                            <img src="./assets/images/slider-dp.svg" alt="prfile_dp">
+                                        </figure>
+                                        <p class="text-description">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                                        <h5 class="fw-600">Chris Thomas</h5>
+                                        <div class="profile_place">CEO of Red Button</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> -->
+                            <!-- <div class="swiper-pagination"></div> -->
+                        </div>
+
+                        <div class="swiper swiper2 mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide d-flex">
+                                    <div class="card slider-card">
+                                        <p class="text-description">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                                        <h5 class="fw-600">Chris Thomas</h5>
+                                        <div class="profile_place">CEO of Red Button</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide d-flex">
+                                    <div class="card slider-card">
+                                        <p class="text-description">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                                        <h5 class="fw-600">Mike taylor</h5>
+                                        <div class="profile_place">Lahore, Pakistan</div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section class="brand">
+            <div class="container">
+                <div class="row brand-row">
+                    <div class="col-sm-6 col-md-4 col-xl-2">
+                        <div class="brand-logo">
+                            <img src="./assets/images/brand1.svg" alt="brand1">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-2 mt-4 mt-sm-0">
+                        <div class="brand-logo">
+                            <img src="./assets/images/brand2.svg" alt="brand2">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-2 mt-4 mt-md-0">
+                        <div class="brand-logo hover">
+                            <img src="./assets/images/brand3.svg" alt="brand3">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-2 mt-4 mt-xl-0">
+                        <div class="brand-logo">
+                            <img src="./assets/images/brand4.svg" alt="brand4">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-2 mt-4 mt-xl-0">
+                        <div class="brand-logo">
+                            <img src="./assets/images/brand5.svg" alt="brand5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <section class="subscribe">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="subscribe-container">
+                        <img class="ring__layer1" src="./assets/icons/sub-layer1.svg" alt="layer1">
+                        <img class="ring__layer2" src="./assets/icons/sub-layer2.svg" alt="layer2">
+                        <!-- <img class="ring__layer3" src="./assets/icons/sub-layer3.svg" alt="layer3"> -->
+        
+                        <figure>
+                            <a href="#" class="tele__link"><img src="./assets/icons/telegram_blue.svg" alt="telegram"></a>
+                        </figure>
+                        <h4>Subscribe to get information, latest news and other
+                            interesting offers about Jadoo</h6>
+        
+                        <div class="form-container">
+                            <form>
+                                <input type="email" placeholder="Your email">
+                                <button class="subscribe-btn">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-row">
+                <div class="col">
+                    <div>
+                        <ul>
+                            <li><a href="#" class="logo"><img  src="./assets/images/Jadoo_black.svg" alt="jadoo"></a></li>
+                            <li><div class="text-description footer-text fw-500">Book your trip in minute, get full
+                                Control for much longer.
+                                </div></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col mt-4 mt-md-0">
+                    <div class="d-md-flex flex-column align-items-center">
+                        <div class="text-left">
+                            <h5>Company</h5>
+                            <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Mobile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mt-4 mt-md-0">
+                    <div class="d-md-flex flex-column align-items-center">
+                        <div class="text-left">
+                            <h5>Contact</h5>
+                            <ul>
+                            <li><a href="#">Help/FAQ</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Affilates</a></li>
+                            </ul>
+                        </div>      
+                    </div>
+                </div>
+
+                <div class="col mt-4 mt-md-0">
+                    <div class="d-md-flex flex-column align-items-center">
+                        <div class="text-left">
+                            <h5>More</h5>
+                            <ul>
+                            <li><a href="#">Airlinefees</a></li>
+                            <li><a href="#">Airline</a></li>
+                            <li><a href="#">Low fare tips</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col  mt-5 mt-lg-0">
+                    <div class="d-md-flex flex-column align-items-xl-end">
+                        <div class="text-left">
+                            <div class="social-links d-flex">
+                                <a href="#"><img src="./assets/icons/fb.svg" alt="fb"></a>
+                                <a href="#" class="ms-2"><img src="./assets/icons/instag.png" alt="insta"></a>
+                                <a href="#" class="ms-2"><img src="./assets/icons/twitter.svg" alt="twitter"></a>
+                            </div>
+                            <div class="discover fw-500 mt-3">Discover our app</div>
+                            <div class="d-flex app-store-links mt-3">
+                                <a href="#" ><img src="./assets/icons/GooglePlay.svg" alt="googleplay"></a>
+                                <a href="#" class="ms-2"><img src="./assets/icons/AppStore.svg" alt="appstore"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="allright">
+                <span>All rights <a href="#">reserved@jadoo.co</a></span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="./script.js" type="text/javascript"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
